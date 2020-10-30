@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+/* -----------------header------------------ */
+
+.header {
+    padding: 21px 0;
+
+    &_len {
+        font-size: 15px;
+        align-self: center;
+    }
+    &_logo {
+        font-family: "Oswald", sans-serif;
+        font-size: 28px;
+    }
+    &-icon {
+        align-self: center;
+        .icon-padding {
+            padding-right: 20px;
+        }
+    }
+}
+
+.menu,
+.nav {
+    height: 60px;
+    background-color: #db6e00;
+    padding-top: 15px;
+    .nav_link {
+        color: #ffffff;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+}
+
+.bag {
+    width: 50%;
+}
+@import "normalize.scss";
